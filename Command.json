@@ -25,5 +25,5 @@ kubectl get all -n grafana
 # Get Grafana ELB URL
 kubectl get svc -n grafana grafana -o jsonpath='{.status.loadBalancer.ingress[0].hostname}'
 
-#dashboard-ის დამატება ამ ორი ID-ით
+#dashboard-ის  დამატება ამ ორი ID-ით რომელიც მზა  არის უკვე 
 3119/6417
